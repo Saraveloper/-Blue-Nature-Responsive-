@@ -28,7 +28,7 @@
  }
  header .logo{
      position: relative;
-     color: #000;
+     color: #DBD3BE;
      font-size: 30px;
      text-decoration: none;
      text-transform: uppercase;
@@ -36,23 +36,79 @@
      letter-spacing: 1px;
  }
  header .navigation a{
-     color: #000;
+     color: #DBD3BE;
      text-decoration: none;
      font-weight: 600;
      letter-spacing: 1px;
-     padding: 2px 15px;
-     border-radius: 30px;
+     padding: 5px 15px;
+     border-radius: 7px;
      transition: 0.6s;
-     transition-property: background;
+     transition-property: color;
  }
  header .navigation a:not(:last-child){
      margin-right: 30px;
  }
  header .navigation a:hover{
-     background: #fff;
- }
+     color: #0C4F60;
+    }
 
  .content{
      max-width: 650px;
      margin: 60px 100px;
  }
+ .content .info h2{
+     color: #89A8AD;
+     font-size: 55px;
+     text-transform: uppercase;
+     font-weight: 800;
+     letter-spacing: 2px;
+     line-height: 60px;
+     margin-bottom: 30px;
+ }
+ .content .info h2 span{
+     color: #fff;
+     font-size: 50px;
+     font-weight: 600;
+ }
+ .content .info p{
+     color: beige;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+ }
+ .content .info-btn{
+    color: #fff;
+    background: #226A80;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: background;
+  }
+  
+  .content .info-btn:hover{
+    background: #0C4F60;
+  }
+
+.media-icons{
+    margin-left: 100px;
+}
+  .media-icons a{
+    position: relative;
+    color: #89A8AD;
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property: color;
+  }
+  .media-icons a:hover{
+      color: #0C4F60;
+  }
+  .media-icons a:not(:last-child){
+    margin-right: 60px;
+  }
+  
+
+  
