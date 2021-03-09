@@ -109,6 +109,25 @@
   .media-icons a:not(:last-child){
     margin-right: 60px;
   }
-  
+  label{
+      display: none;
+  }
+  #check{
+      z-index: 3;
+  }
+
+  @media (max-width: 960px){
+    header .navigation{
+      display: none;
+    }
+    label{
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+        transition: 0.3s;
+        transition-property: color;
+    }
+    label:hover{
+        color: #0C4F60;
 
   
